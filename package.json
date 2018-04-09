@@ -1,0 +1,26 @@
+{
+  "name": "homogeneous",
+  "version": "0.1.0",
+  "description": "Make the density of vertices in a spherical mesh homogeneous",
+  "main": "homogeneous.js",
+  "scripts": {
+    "test": "node homogeneous.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r03ert0/homogeneous.git"
+  },
+  "keywords": [
+    "mesh"
+  ],
+  "author": "Roberto Toro <rto@braincatalogue.org> (http://neuroanatomy.github.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r03ert0/homogeneous/issues"
+  },
+  "homepage": "https://github.com/r03ert0/homogeneous#readme",
+  "dependencies": {
+    "cli": "^1.0.1",
+    "ply.js": "git+https://git@github.com/r03ert0/ply.js.git"
+  }
+}
