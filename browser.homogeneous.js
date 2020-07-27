@@ -67,10 +67,10 @@ function initForceDisplay() {
 
 function loadMesh() {
     var loader = new THREE.PLYLoader();
-//    const name = 'icosahedron.ply';
-//    const name = 'surf.sphere-502.ply';
-//    const name = 'surf.sphere-2502.ply';
-    const name = 'surf.sphere-14855-laplace5k.ply';
+//    const name = 'data/icosahedron.ply';
+//    const name = 'data/surf.sphere-502.ply';
+//    const name = 'data/surf.sphere-2502.ply';
+    const name = 'data/surf.sphere-14855-laplace5k.ply';
     loader.load( name, function ( geometry ) {
         geometry.computeVertexNormals();
         var material = new THREE.MeshNormalMaterial({wireframe: true});
